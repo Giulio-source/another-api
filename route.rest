@@ -9,3 +9,25 @@ Content-Type: application/json
 ###
 
 GET http://localhost:3000/posts
+
+
+###
+
+
+GET http://localhost:3000/posts/6020fcad48c3360fa26396a4
+
+
+###
+
+DELETE http://localhost:3000/posts/6020fe2de4efc310d7e14ff0
+
+
+###
+
+PATCH http://localhost:3000/posts/602104b6999eb81d1f1b9376
+Content-Type: application/json
+
+{
+    "title": "Prova",
+    "content": "Prova qui"
+}
